@@ -1,0 +1,16 @@
+.header {
+    width: 100%;
+    position: relative;
+}
+
+.header__inner {
+    padding: 3.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid $gray;
+}
+
+.header__logo {
+    cursor: pointer;
+}

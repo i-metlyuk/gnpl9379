@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;700&family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.min.css">
     
     <!-- Useful meta tags -->
@@ -19,18 +19,135 @@
 </head>
 <body>
 
-    <header>
+    <header class="header" id="header">
         <div class="container">
-            project
+            <div class="header__inner">
+                <div class="header__logo">
+                    <a href="#">
+                        <img src="https://via.placeholder.com/150x40/ccc" alt="">
+                    </a>
+                </div>
+                <nav class="nav" id="nav">
+                    <a class="nav__link" href="#" data-nav>Works</a>
+                    <a class="nav__link" href="#" data-nav>Team</a>
+                    <a class="nav__link" href="#" data-nav>Contacts</a>
+                </nav>
+                <button class="burger" type="button" id="burger">
+                    <span class="burger__item">Menu</span>
+                </button>
+            </div>
         </div>
     </header>
-
     
-    Hello!
+    <section class="section">
+        <div class="container">
+            <div class="section__header">
+                <h1 class="section__title">Accordion</h1>
+            </div>
     
-
-    <footer>Footer</footer>
-
+            <div class="accordion" id="accordion">
+                <div class="accordion__item">
+                    <div class="accordion__header" data-collapse="#accordion_1">
+                        <img class="accordion__icon" src="assets/images/accordion/suitcase.png" alt="">
+                        <div class="accordion__title">
+                            Works
+                        </div>
+                    </div>
+                    <div class="accordion__content" id="accordion_1">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                            nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia
+                            deserunt mollit anim id est laborum.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                            nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia
+                            deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="accordion__item active">
+                    <div class="accordion__header" data-collapse="#accordion_2">
+                        <img class="accordion__icon" src="assets/images/accordion/group.png" alt="">
+                        <div class="accordion__title">
+                            Team
+                        </div>
+                    </div>
+                    <div class="accordion__content" id="accordion_2">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                            nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia
+                            deserunt mollit anim id est laborum.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                            nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia
+                            deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="accordion__item">
+                    <div class="accordion__header" data-collapse="#accordion_3">
+                        <img class="accordion__icon" src="assets/images/accordion/contact.png" alt="">
+                        <div class="accordion__title">
+                            Contacts
+                        </div>
+                    </div>
+                    <div class="accordion__content" id="accordion_3">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                            nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia
+                            deserunt mollit anim id est laborum.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                            nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia
+                            deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
     <script src="assets/js/app.js"></script>
 </body>
 </html>

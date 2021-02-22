@@ -12,10 +12,7 @@ body {
     letter-spacing: 0.11rem;
     line-height: 1;
     color: $black;
-
-    &.no-scroll {
-        overflow: hidden;
-    }
+    overflow-y: scroll;
 }
 
 *,
@@ -26,11 +23,12 @@ body {
 
 a{
     text-decoration: none;
-
-    &:hover{
-        text-decoration: underline;
-    }
 }
 
 /* Blocks */
 @import "blocks/container";
+@import "blocks/header";
+@import "blocks/nav";
+@import "blocks/burger";
+@import "blocks/section";
+@import "blocks/accordion";
